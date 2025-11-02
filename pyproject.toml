@@ -1,0 +1,12 @@
+[project]
+name = "adk-selfrag"
+version = "0.1.0"
+description = "Your project description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "litellm>=1.79.1",
+]
+
+[tool.setuptools]
+packages = ["self_rag"]
