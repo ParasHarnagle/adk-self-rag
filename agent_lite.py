@@ -39,8 +39,7 @@ app.add_middleware(
 # -------------------------------------------------------------------
 
 LITELLM_PROXY_API_KEY = os.getenv(
-    "LITELLM_PROXY_API_KEY",
-    "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",
+    "LITELLM_PROXY_API_KEY"
 )
 
 litellm.use_litellm_proxy = True
